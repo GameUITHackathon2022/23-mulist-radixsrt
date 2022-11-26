@@ -1,0 +1,97 @@
+
+
+.model-campaign-container {
+    width: 423px;
+    height: 728px;
+    background: #F7F8FA;
+    border-radius: 26.4706px;
+    padding: 26px;
+}
+
+.model-campaign-container input {
+    margin: 8px 0;
+    width: 370px;
+    height: 52px;
+    border-radius: 26px;
+    border: none;
+    outline: none;
+    padding: 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 1.05882px 2.64706px rgba(0, 0, 0, 0.1);
+    border-radius: 26.4706px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.model-campaign-container label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #4D5E80;
+}
+
+.model-campaign-container .row-wrap {
+    display: flex;
+    width: 100%;
+
+}
+
+.model-campaign-container .col-wrap {
+    width: 50%;
+
+}
+
+.model-campaign-container .row-wrap input{
+    width: 100%;
+
+}
+.model-campaign-container .address {
+    margin: 8px 0;
+    width: 370px;
+    height: 52px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 1.05882px 2.64706px rgba(0, 0, 0, 0.1);
+    border-radius: 26.4706px;
+}
+
+.model-campaign-container .address-holder{
+    font-size: 17px;
+    font-weight: 400;
+    color: #C3CAD9;
+}
+
+
+.model-campaign-container .address-picker-img{
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+}
+
+.model-campaign-container .desc-input{
+    min-height: 304px;
+    background: #EDEFF2;
+    box-shadow: 0px 1.05882px 2.64706px rgba(0, 0, 0, 0.1);
+    border-radius: 15.8824px;
+}
+
+
+.model-campaign-container .create-campaign-btn {
+    width: 105px;
+    height: 26px;
+    background: #6AD388;
+    border-radius: 26.4706px;
+    color: #ffffff;
+    border: none;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.model-campaign-footer {
+    display: flex;
+    justify-content: center;
+}
+

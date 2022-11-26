@@ -1,0 +1,35 @@
+.footer {
+    background-color: #65a768;
+    padding: 50px 200px;
+    color: #737373;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #737373;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us {
+}
+.about-us > h1 {
+    color: white;
+    font-weight: 400;
+}
+.quick-access {
+}
+.quick-access > h1 {
+    color: white;
+    font-weight: 400;
+}
+.classify {
+
+}
+.classify > h1 {
+    color: white;
+    font-weight: 400;
+}

@@ -1,0 +1,58 @@
+    .target{
+        margin-top: 100 px;
+    }
+    
+    .title {
+        text-align: center;
+        font-size: 4.8rem;
+    }
+
+    .title--green {
+        color: #15a83e;
+    }
+
+    .text {
+        text-align: center;
+        font-size: 3.2rem;
+    }
+
+    .targets {
+        margin: auto;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .target-element{
+        background: #ffffff;
+        box-shadow: 0px 10px 40px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 50px;
+        width: 400px;
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .target-element__title{
+        color:#0B862D;
+        font-size: 2.4rem;
+        margin-top: 8px;
+        font-weight: 500;
+    }
+
+    .target-element__decription{
+        font-size: 1.6rem;
+        padding: 0 12px;
+        text-align: justify;
+    }
+
+    .target-element__img{
+        margin-top: 8px;
+        width: 75px;
+        height: 75px;
+        filter: invert(36%) sepia(87%) saturate(468%) hue-rotate(85deg) brightness(93%) contrast(98%);
+
+
+    }

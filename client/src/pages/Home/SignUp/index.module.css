@@ -1,0 +1,83 @@
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.close-form{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 30px;
+    color: #505965;
+    cursor: pointer;
+}
+
+.form-login{
+    position: relative;
+    margin: auto;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.form-login-social-item{
+    display: flex;
+    align-items: center;
+    width: 320px;
+    height: 40px;
+    border: 2px solid #b9bfc8;
+    border-radius: 20px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.form-login-social-item > p{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #505965  ;
+}
+
+.form-login-logo{
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+}
+
+.line-cross{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 12px 0;
+}
+
+
+.form-login-default > input{
+    padding: 0 20px;
+    display: block;
+    width: 320px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+    height: 32px;
+}
+
+input::placeholder{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.signup-btn{
+    display: block;
+    color: white;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}

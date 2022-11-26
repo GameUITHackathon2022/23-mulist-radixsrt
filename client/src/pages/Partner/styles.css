@@ -1,0 +1,291 @@
+html {
+    height: 100vh;
+}
+
+body {
+    background-color:  #F7F8FA;
+    height: 100%;
+}
+
+/* ------------------nav bar------------- */
+
+
+#navbar {
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-bottom: 2px solid #EDEFF2;
+}
+
+#navbar .navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+#navbar .navbar-left .navbar-logo-img {
+    height: 80px;
+    width: 80px;
+}
+
+#navbar .navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+#navbar .navbar-left .navbar-name {
+    font-size: 24px;
+    font-weight: 600;
+    color:  #4D5E80;
+}
+
+#navbar .navbar-right .navbar-profile-img {
+    height: 40px;
+    width: 40px;
+    margin: 0 10px;
+}
+
+#navbar .navbar-right .profile-arrow img{
+    height: 20px;
+    width: 20px;
+}
+
+
+/* ---------------partner body-------------------- */
+
+
+#partner-container {
+    height: 100%;
+    margin-top: 80px;
+}
+
+
+#partner-container .partner-infor{
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 360px;   
+    border-right: 2px solid #EDEFF2;
+}
+
+.partner-infor .partner-name {
+    font-size: 34px;
+    font-weight: 400;
+    color: #4D5E80;
+    margin-top: 68px;   
+}
+
+.partner-infor .partner-infor-total {
+    margin-top: 42px;
+    align-items: center;
+}
+
+.partner-infor .partner-infor-total .total-icon {
+    width: 50px;
+    height: 50px;
+}
+.partner-infor .partner-infor-total .partner-total {
+    font-size: 24px;
+    font-weight: 700;
+    color: #4D5E80;
+}
+
+.partner-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+    flex: 1;
+}
+
+.partner-content .partner-content-header {
+    width: 100%;
+    height: 135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:  5px solid #EDEFF2;;
+}
+
+
+
+.partner-content-header-left{
+    display: flex;
+    align-items: center;
+}
+
+.partner-content-header-left button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    box-shadow: 0px 1.42857px 3.57143px rgba(0, 0, 0, 0.1);
+}
+
+.partner-content-header-left button img {
+    height: 21px;
+    width: 21px;
+}
+
+.partner-content-header-left .create-campaign-lable {
+    font-size: 24px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #4FC653 0%, #72BBFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-left: 8px;
+}
+
+.partner-content-header-right {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.partner-content-filter {
+    display: flex;
+}
+
+.--filter-gray {
+    color: #C3CAD9;
+    border: 2px solid #C3CAD9;
+}
+
+.--filter-white {
+    color: #ffffff;
+    background: #C3CAD9;
+}
+
+.filter-btn.--filter-new {
+    width: 63px;
+    color: #C3CAD9;
+    border: 2px solid #C3CAD9;
+}
+.partner-content-filter .filter-btn {
+    display: flex;
+    min-width: 88px;
+    padding: 4px;
+    height: 28px;
+    align-items: center;
+    margin: 0 4px;
+    
+    border-radius: 6px;
+}
+
+.partner-content-filter .filter-btn p {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.partner-content-filter .filter-btn img {
+    height: 16px;
+    width: 16px;
+    margin: 0 3px;
+}
+
+.partner-content-body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner-content-body .partner-content-null-label {
+    font-size: 36px;
+    font-weight: 700;
+    color: #C3CAD9;
+}
+
+.campaign-card {
+    margin: 8px 8px;
+    padding: 16px 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 1.64935px 4.12338px rgba(0, 0, 0, 0.1);
+    border-radius: 24.7403px;
+
+}
+.campaign-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.campaign-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #4D5E80;
+}
+
+.campaign-header .date {
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #C3CAD9;
+}
+
+
+.campaign-edit-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.campaign-desc {
+    margin-top: 8px;
+    max-width: 250px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: justify;
+    color: #C3CAD9;
+}
+
+.campaign-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.campaign-submissions, .campaign-approve, .campaign-timing {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.campaign-submission-img, .campaign-approve-img, .campaign-timming-img {
+    height: 27px;
+    width: 27px;
+}
+
+.campaign-submissions p, .campaign-approve p, .campaign-timing p {
+    font-size: 12px;
+    font-weight: 500;
+    color:  #4D5E80;
+}
+
+.campaign-cancel-btn {
+    cursor: pointer;
+    margin-top: 4px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #FE5C5C;
+    display: flex;
+    border: 1.69058px solid #FE5C5C;
+    border-radius: 28.1764px;
+    padding: 4px;
+}
+
+
+.campaign-cancel-img {
+    height: 10px;
+    width: 10px;
+    margin-left: 4px;   
+}
+
