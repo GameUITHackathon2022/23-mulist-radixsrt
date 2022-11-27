@@ -33,7 +33,6 @@ function Home() {
             <Event/>
             <Experience/>
             <Donors/>
-            <Footer/>
         </Fragment>
     );
 }

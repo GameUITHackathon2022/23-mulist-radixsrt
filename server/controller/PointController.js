@@ -27,9 +27,16 @@ class PointController {
         await newPoint.save()
         return newPoint
     }
-    async getTop8HiestPoint(){
-        const data = await Point.find().sort({value:-1}).limit(8).populate('userId').exec()
+    async getTop8HiestPoint() {
+        const data = await Point.find().sort({ value: -1 }).limit(8).populate('userId').exec()
         return data;
+    }
+    async getPointByUser(req, res, next) {
+        const data = await Point.findOne({ userId: req.user.userId }).populate('userId').exec()
+        res.status(200).send({
+            success: true,
+            data: data
+        })
     }
 }
 module.exports = new PointController

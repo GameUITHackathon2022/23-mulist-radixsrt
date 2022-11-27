@@ -7,7 +7,7 @@ import { LoginProvide } from "./provider/LoginProvider";
 import DashboardPage from "./pages/Dashboard";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
-
+import Contributor from "./pages/contributor";
 const App = () => {
   return (
     <Router>
@@ -25,7 +25,7 @@ const App = () => {
             <Route path="/dashboard" element={
               <LoginProvide>
                 <Dashboard>
-                  <DashboardPage/>
+                  <DashboardPage />
                 </Dashboard>
               </LoginProvide>
             } />
@@ -37,11 +37,17 @@ const App = () => {
                 </Layout>
               </LoginProvide>
             } />
-
+            <Route path="/Contributors" element={
+              <LoginProvide>
+                <Layout>
+                  <Contributor/>
+                </Layout>
+              </LoginProvide>
+            } />
             <Route path="/SignUp" element={
               <LoginProvide>
                 <Layout>
-                  <SignUp/>
+                  <SignUp />
                 </Layout>
               </LoginProvide>
             } />
